@@ -1,3 +1,0 @@
-#declaração
-#inicio
-#fim
