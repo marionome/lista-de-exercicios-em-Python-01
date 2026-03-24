@@ -9,9 +9,10 @@ def calc(tipo, valor_i):
     else:
         print("Tipo de investimento invalido,insira um tipo de investimento valido")
 
-#declaração
-tipo = int(input("insira o tipo de investimento(1 para poupança e 2 para renda fixa):"))
-valor_i = float(input("insira o valor do investimento:"))
-#inicio
-calc(tipo, valor_i)
-#fim
+def main():
+    tipo = int(input("insira o tipo de investimento(1 para poupança e 2 para renda fixa):"))
+    valor_i = float(input("insira o valor do investimento:"))
+    calc(tipo, valor_i)
+
+if __name__ == "__main__":
+    main()
